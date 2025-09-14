@@ -204,11 +204,11 @@ export default function ShortfilmsAndShorts() {
       {/* Row 2: Shorts */}
       <div className="mt-6" />
       <Row autoplay speedMs={2200} cardWidth={210} gapPx={12} stagger={0.06}>
-        {shortCards.length > 0 ? shortCards : (
-          <div className="text-sm text-gray-500 dark:text-white/60 px-4">
+        {shortCards.length > 0 ? shortCards : [
+          <div className="text-sm text-gray-500 dark:text-white/60 px-4" key="no-shorts">
             Add your Shorts IDs to <code>YT_SHORTS_IDS</code> in <code>shortfilms-shorts.tsx</code>.
           </div>
-        )}
+        ]}
       </Row>
 
       {/* hide horizontal scrollbar */}
