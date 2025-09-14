@@ -29,7 +29,7 @@ Reach out through any of these:
 
 ## 🌐 Explore My Work
 
-Check out the live site here: [rishivarman.vercel.app](https://rishivarman.vercel.app)
+Check out the live site here: [rishivarman.com](https://rishivarman.com)
 
 ---
 
